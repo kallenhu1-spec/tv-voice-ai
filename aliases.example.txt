@@ -1,0 +1,4 @@
+# 自定义纠错表：识别结果里出现左边任意一种写法，就换成右边再去搜。左边用 | 分隔多个，不分大小写、忽略空格。
+# 用法：复制成 aliases.txt，改好后运行 scripts/install.sh 生效。
+meat food | meatfood | meet food = meetfood
+晓林说 | 小琳说 = 小Lin说

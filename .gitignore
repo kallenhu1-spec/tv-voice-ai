@@ -1,0 +1,12 @@
+# 构建产物
+.gradle/
+build/
+app/build/
+local.properties
+# 运行时状态：电视 IP、原始设置备份、日志、录音、截图（可能含隐私）
+state/
+# 个人纠错表
+aliases.txt
+*.apk
+.DS_Store
+__pycache__/
